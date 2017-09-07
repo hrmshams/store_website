@@ -9,6 +9,20 @@
 
 @import "../css/font-awesome.css";
 
+@font-face {
+  font-family: 'iransans_bold';
+  src: url('../fonts/iran_sans_bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iransans_med';
+  src: url('../fonts/iran_sans_medium.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 input {
 	outline:  none !important;
 	border-radius: 0 !important;
@@ -30,7 +44,8 @@ text-decoration:none;
 
 
 body {
-	font: 14px/20px  Arial, Helvetica, sans-serif;
+	/*font: 14px/20px  Arial, Helvetica, sans-serif;*/
+	font: 14px/20px iransans_med;
 	color:#5f5e4e;
 	background-color: #d7d7b1;
 	position:relative;
@@ -52,7 +67,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	font-family: 'Open Sans', sans-serif ;
+	font-family: iransans_bold , sans-serif ;
 	color: #009fb3;
 
 }
@@ -137,7 +152,7 @@ a {
 }
 
 a:hover {
-	color: #d9c381;
+	/*color: #d9c381;*/
 
 }
 
@@ -264,12 +279,12 @@ h1 a img {
 	width: 43px;
 	height: 43px;
 	  color: #d9c381;
-	  font: 24px/43px FontAwesome;
+	  font: 24px/43px iransans_bold;
 }
 
 .socials a:first-child:after {
 	  content: '';
-	  font: 24px/43px FontAwesome;
+	  font: 24px/43px iransans_bold;
 	  color: #d9c381;
 	  width: 43px;
 	  height: 43px;
@@ -338,7 +353,7 @@ h1 a img {
 	overflow: hidden;
 	margin-top: -108px;
 	margin-left: -104px;
-	font: bold 20px/20px 'Open Sans', sans-serif;
+	font: bold 20px/20px iransans_bold;
 	color: #fff;
 	width: 217px;
 	position: absolute;
@@ -423,14 +438,14 @@ top: 2px;
 .box .title {
 	padding-top: 24px;
 	margin-bottom: 26px;
-	font: 24px/20px 'Open Sans', sans-serif;
+	font: 24px/20px iransans_bold;
 }
 
 .box>div>a {
 	position: relative;
 	display: inline-block;
 	margin-top: 24px;
-	font: 300 16px/20px 'Open Sans', sans-serif;
+	font: 300 16px/20px iransans_bold;
 }
 
 .box>div>a:after {
@@ -506,7 +521,7 @@ a.col1:hover, .col1>a:hover {
 .div-tabs  {
 	text-align: center;
 	display: block;
-	height: 650px;
+	height: 800px;
 	/*align-content: center;*/
 }
 
@@ -557,12 +572,12 @@ a.col1:hover, .col1>a:hover {
 	margin-top: 53px;
 }
 .post .title {
-	font: 18px/20px 'Open Sans', sans-serif;
+	font: 18px/20px iransans_bold;
 	margin-bottom: 7px;
 }
 
 a.link1 {
-	font: 300 16px/20px 'Open Sans', sans-serif;
+	font: 300 16px/20px iransans_bold;
 	display: inline-block;
 	margin-top: 15px;
 }
@@ -589,7 +604,7 @@ a.link1 {
 	color: #d9c381;
 	position: relative;
 	top: -1px;
-	font:  16px/20px 'Open Sans', sans-serif;
+	font:  16px/20px iransans_bold;
 }
 
 a.reserv {
@@ -598,7 +613,7 @@ a.reserv {
 	background-color: #9b9a87;
 	padding: 29px 20px 28px 18px;
 	margin-top: 54px;
-	font:  27px/27px 'Open Sans', sans-serif;
+	font:  27px/27px iransans_bold;
 }
 
 a.reserv:hover {
@@ -633,7 +648,7 @@ a.reserv span {
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     -webkit-transform: rotate(-90deg); /* Chrome y Safari */
    -moz-transform: rotate(-90deg); /* Firefox */
-	font:  36px/36px 'Open Sans', sans-serif;
+	font:  36px/36px iransans_bold;
 	position: absolute;
 	z-index: 1;
 	bottom: 0;
@@ -812,7 +827,7 @@ footer a:hover {
 }
 
 .button {
-	font-size: 17px;
+	font-size: 15px;
 	background-color: green;
 	color: white;
 	width: 150px;

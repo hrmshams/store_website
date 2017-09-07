@@ -7,7 +7,7 @@
 }
 
 nav.bt-menu  ul li {
-	font: bold 18px/29px 'Open Sans', sans-serif;
+	font: bold 18px/29px iransans_bold;
 	color: #fff;
 }
 nav.bt-menu  ul li:first-child+li+li {
@@ -207,4 +207,3 @@ nav.bt-menu  ul li a:hover, nav ul li.current  {
 .bt-menu ul li a:before {
 	display: none;
 }
-
