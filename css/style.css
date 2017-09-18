@@ -324,7 +324,7 @@ h1 a img {
 
 .page1 .content {
 	padding-top: 4px;
-	padding-bottom: 105px;
+	padding-bottom: 35px;
 
 }
 
@@ -522,7 +522,7 @@ a.col1:hover, .col1>a:hover {
 .div-tabs  {
 	text-align: right;
 	display: block;
-	height: 800px;
+	height: auto;
 	/*align-content: center;*/
 }
 
@@ -552,14 +552,15 @@ a.col1:hover, .col1>a:hover {
 }
 
 #tab-1 .grid_3 {
-	margin-left: 3px;
-	margin-right: 3px;
-
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+    
   background-color: #F6F7EA;
   border-radius: 10px;
 
   display: table-row;
-  width: 182px;
+  width: 175px;
 }
 
 #tab-1 .grid_3 .gal {
@@ -859,10 +860,7 @@ footer a:hover {
 	margin-right: auto;
 	margin-top: 30px;
 	border-radius: 4px;
-	padding: 7px;
-	/*padding-top: : 7px;
-	padding-left: 7px;
-	padding-right: 7px;*/
+	padding: 8px 6px 2px 5px;
 }
 
 .button:hover {
@@ -871,14 +869,15 @@ footer a:hover {
 
 .add-to-cart-btn {
     background-image: url("../images/add_to_cart.png");
-    background-size: contain;
+    background-size: 35px;
     background-color: green;
     border-radius: 10px;
     width: 30px;
     height: 30px;
     padding: 5px;
-    margin: 0px 50px 7px 7px;
+    margin: 0px 40px 7px 7px;
     display: inline-block;
+    background-position: center;
     /*box-shadow: 2px;*/
 }
 
