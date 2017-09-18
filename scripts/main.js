@@ -1,15 +1,13 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React , {Component} from 'react';
+import ReactDOM from 'react-dom';
 
-var App = React.createClass({
+import SpecialProductsSec from './Components/SpecialProductsSec';
+import OrdinaryProductsSec from './Components/OrdinaryProductsSec';
 
-    render: function(){
 
-        return(
-            <h1>Hello World</h1>
-        );
-    }
+{/* rendering the special products! */}
+ReactDOM.render(<SpecialProductsSec />, document.getElementById('special-products'));
 
-});
+{/* rendering the ordinary products! */}
+ReactDOM.render(<OrdinaryProductsSec />, document.getElementById('ordinary_products'));
 
-ReactDOM.render(<App />, document.getElementById('app'));
